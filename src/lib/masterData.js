@@ -14712,36 +14712,138 @@ export const coursesData = {
 
     // Data for SapModComponent (course-specific syllabus)
     sapMod: {
-      title2:
-        '<span class="highlight-span-cards">DIGITAL MARKETING</span> Syllabus',
-      description:
-        "Industry aligned Digital Marketing syllabus with certification",
-      summary:
-        "An exhaustive Syllabus designed by our industry experts which will help you to get placed in your dream IT company",
-      noteMaster: "We provide advanced Digital Marketing training",
-      noteAdvance: "Advance",
-      features: [
-        { label: "10+", description: "Languages & Tools" },
-        { label: "280+", description: "Live Sessions Hours" },
-      ],
-      overview: {
-        title: "Syllabus Overview",
-        modules: [
-          { name: "Digital Marketing Overview", duration: "2 Weeks" },
-          { name: "AI in Digital Marketing", duration: "2 Weeks" },
-          { name: "Blog Creation", duration: "2.4 Weeks" },
-          { name: "Business Website Creation", duration: "2.4 Weeks" },
-          { name: "E-Commerce Creation", duration: "1.2 Weeks" },
-          { name: "Graphic Creation", duration: "3 Weeks" },
-          { name: "Video Creation", duration: "1.8 Weeks" },
-          { name: "Reels Mastery Program", duration: "4.4 Weeks" },
-          { name: "Search Engine Fundamentals", duration: "9 Weeks" },
-        ],
+  title2: "<span class=\"highlight-span-cards\">Digital Marketing</span> Syllabus",
+  description: "Industry aligned Digital Marketing syllabus with certification",
+  summary: "An exhaustive Syllabus designed by our industry experts which will help you to get placed in your dream IT company",
+  noteMaster: "We provide advanced Digital Marketing training",
+  features: [
+    { label: "10+", description: "Tools" }
+  ],
+  overview: {
+    title: "Syllabus Overview",
+    modules: [
+      {
+        name: "Digital Marketing Overview",
+        subtopics: [
+          "Introduction to Digital Marketing Ecosystem",
+          "Understanding Online Consumer Behaviour",
+          "Channels of Digital Marketing",
+          "Traditional vs Digital Marketing",
+          "Key Metrics & KPIs in Digital Marketing",
+          "Digital Campaign Planning Process",
+          "Latest Trends & Industry Insights",
+          "Career Opportunities in Digital Marketing"
+        ]
       },
-      videoUrl: "https://i.imgur.com/8wkvVyH.mp4",
-      downloadLink:
-        "https://drive.google.com/uc?export=download&id=1H5Wuu3AwsOanOgl5JFIOmC2vR555F2he",
-    },
+      {
+        name: "AI in Digital Marketing",
+        subtopics: [
+          "AI-powered Content Creation Tools",
+          "Chatbots & Customer Interaction",
+          "Predictive Analytics for Campaigns",
+          "Personalization with Machine Learning",
+          "AI-driven Ad Targeting",
+          "Voice Search Optimization",
+          "Image & Video Recognition Applications",
+          "Future of AI in Marketing"
+        ]
+      },
+      {
+        name: "Blog Creation",
+        subtopics: [
+          "Choosing a Blogging Platform",
+          "Setting up a Blog Website",
+          "Keyword Research for Blogs",
+          "Writing SEO-friendly Blog Posts",
+          "Optimizing Blog Layout & Design",
+          "Internal & External Linking Strategies",
+          "Promoting Blogs on Social Media",
+          "Tracking Blog Performance with Analytics"
+        ]
+      },
+      {
+        name: "Business Website Creation",
+        subtopics: [
+          "Introduction to Website Builders & CMS",
+          "Domain & Hosting Setup",
+          "Designing a Professional Layout",
+          "Adding Business Information & Pages",
+          "Integrating Contact Forms & Chat Widgets",
+          "Basic SEO Setup for Business Websites",
+          "Mobile Optimization Techniques",
+          "Website Security Essentials"
+        ]
+      },
+      {
+        name: "E-Commerce Creation",
+        subtopics: [
+          "E-Commerce Business Models",
+          "Setting up an Online Store",
+          "Product Listing & Categorization",
+          "Payment Gateway Integration",
+          "Shipping & Inventory Management",
+          "Creating Promotions & Discounts",
+          "Customer Review & Feedback Systems",
+          "E-Commerce SEO & Analytics"
+        ]
+      },
+      {
+        name: "Graphic Creation",
+        subtopics: [
+          "Introduction to Graphic Design Principles",
+          "Using Canva & Photoshop Basics",
+          "Creating Social Media Graphics",
+          "Designing Banners & Posters",
+          "Typography & Color Theory",
+          "Branding Elements in Graphics",
+          "Image Optimization for Web",
+          "Trends in Visual Content"
+        ]
+      },
+      {
+        name: "Video Creation",
+        subtopics: [
+          "Basics of Video Production",
+          "Scriptwriting for Videos",
+          "Shooting Techniques & Lighting",
+          "Editing Videos with Tools (Premiere Pro, CapCut)",
+          "Adding Music & Voiceovers",
+          "Creating Animated Explainers",
+          "Video SEO & Thumbnail Design",
+          "Publishing & Promoting Videos"
+        ]
+      },
+      {
+        name: "Reels Mastery Program",
+        subtopics: [
+          "Understanding Instagram & Facebook Reels",
+          "Trending Reels Content Ideas",
+          "Editing Reels on Mobile",
+          "Using Effects, Filters & Transitions",
+          "Reel SEO & Hashtag Strategy",
+          "Collaborations & Cross-Promotion",
+          "Analyzing Reel Insights",
+          "Monetizing Short-form Video Content"
+        ]
+      },
+      {
+        name: "Search Engine Fundamentals",
+        subtopics: [
+          "How Search Engines Work",
+          "Understanding SERP Features",
+          "Keyword Research Techniques",
+          "On-page SEO Fundamentals",
+          "Off-page SEO Strategies",
+          "Technical SEO Basics",
+          "SEO Tools Overview",
+          "Measuring SEO Performance"
+        ]
+      }
+    ]
+  },
+  videoUrl: "https://i.imgur.com/8wkvVyH.mp4",
+  downloadLink: "https://drive.google.com/uc?export=download&id=1H5Wuu3AwsOanOgl5JFIOmC2vR555F2he"
+},
 
     // Data for Certificate Component
     certificate: {
@@ -15135,107 +15237,175 @@ export const coursesData = {
     },
 
     // Data for Modules Component (course-specific curriculum)
-    modulesData: {
-      title: "HR TRAINING CURRICULUM",
-      tabs: [
+modulesData : {
+  title: "HR TRAINING CURRICULUM",
+  globalActions: {
+    startLearning: "https://example.com/start-learning-hr-training",
+    downloadCurriculum: "https://example.com/download-curriculum-hr-training",
+  },
+  banner: {
+    title: "Looking for HR Courses?",
+    subtitle: "No need to Google 10 tabs — everything's listed right here.",
+    image:
+      "https://res.cloudinary.com/dudu879kr/image/upload/v1752485069/ITBanner_vkag1x.webp",
+    technologies: [
+      "HR Fundamentals",
+      "Recruitment",
+      "Employee Relations",
+      "Compliance",
+      "Performance Management",
+      "HRIS",
+      "Analytics",
+    ],
+  },
+  tabs: [
+    {
+      modules: [
         {
-          type: "beginner",
-          duration: "3 Months",
-          modules: [
-            {
-              title: "HR Fundamentals",
-              duration: "1 Month",
-              content: [
-                "Introduction to Human Resources and its role in organizations",
-                "HR functions and organizational structure",
-                "Employment law basics and compliance requirements",
-                "HR ethics and professional standards",
-                "Understanding organizational behavior and culture",
-                "HR metrics and key performance indicators",
-              ],
-            },
-            {
-              title: "Recruitment & Selection",
-              duration: "1 Month",
-              content: [
-                "Job analysis and job description creation",
-                "Recruitment strategies and sourcing techniques",
-                "Interview techniques and selection methods",
-                "Background verification and reference checks",
-                "Onboarding processes and orientation programs",
-                "Diversity and inclusion in hiring practices",
-              ],
-            },
-            {
-              title: "Employee Relations & Communication",
-              duration: "1 Month",
-              content: [
-                "Employee engagement and satisfaction surveys",
-                "Conflict resolution and mediation techniques",
-                "Grievance handling and disciplinary procedures",
-                "Internal communication strategies",
-                "Employee feedback and performance discussions",
-                "Workplace policies and procedure development",
-              ],
-            },
+          title: "HR Fundamentals",
+          duration: "1 Month",
+          content: [
+            "Role of HR in aligning workforce with company goals",
+            "Core HR functions like recruitment, payroll, and training",
+            "Basics of labor laws and compliance",
+            "Importance of ethics in HR operations",
+            "Understanding workplace culture and employee behavior",
           ],
+          detailedContent: [
+            "In-depth overview of HR responsibilities",
+            "Impact of HR functions on business growth",
+            "Compliance requirements and their implications",
+            "Ethical practices in hiring and employee management",
+            "Link between HR strategies and organizational culture",
+          ],
+          toolsAndTechnologies: [
+            { name: "BambooHR", icon: "https://res.cloudinary.com/dudu879kr/image/upload/v1754997923/bamboo_HR_yb7hqs.webp", alt: "BambooHR" },
+            { name: "Zoho People", icon: "https://res.cloudinary.com/dudu879kr/image/upload/v1755000268/zohopeople_r6psyf.webp", alt: "Zoho People" },
+            { name: "Microsoft Excel", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "Microsoft Excel" },
+            { name: "SAP SuccessFactors", icon: "https://img.icons8.com/color/500/sap.png", alt: "SAP SuccessFactors" },
+          ],
+          actions: {
+            startLearning: "https://example.com/start-learning-hr-fundamentals",
+            downloadCurriculum: "https://example.com/download-curriculum-hr-fundamentals",
+          },
         },
         {
-          type: "advanced",
-          duration: "6 Months",
-          modules: [
-            {
-              title: "Performance Management Systems",
-              duration: "1.5 Months",
-              content: [
-                "Performance appraisal methods and techniques",
-                "Goal setting and performance planning",
-                "360-degree feedback systems",
-                "Performance improvement plans",
-                "Career development and succession planning",
-                "Performance management software and tools",
-              ],
-            },
-            {
-              title: "Compensation & Benefits",
-              duration: "1.5 Months",
-              content: [
-                "Salary structure design and job evaluation",
-                "Market research and compensation benchmarking",
-                "Incentive and bonus program development",
-                "Benefits administration and management",
-                "Payroll processing and compliance",
-                "Total rewards strategy and communication",
-              ],
-            },
-            {
-              title: "Training & Development",
-              duration: "1.5 Months",
-              content: [
-                "Training needs analysis and assessment",
-                "Learning and development program design",
-                "Training delivery methods and techniques",
-                "E-learning and digital training platforms",
-                "Training evaluation and ROI measurement",
-                "Leadership development and mentoring programs",
-              ],
-            },
-            {
-              title: "HR Analytics & Strategic HR",
-              duration: "1.5 Months",
-              content: [
-                "HR data analysis and reporting",
-                "Workforce planning and forecasting",
-                "HR technology and HRIS systems",
-                "Strategic HR planning and alignment",
-                "Change management and organizational development",
-                "HR project management and implementation",
-              ],
-            },
+          title: "Recruitment & Selection",
+          duration: "1 Month",
+          content: [
+            "Conducting job analysis for role clarity",
+            "Creating accurate job descriptions",
+            "Effective sourcing strategies",
+            "Interviewing techniques for better selection",
+            "Onboarding new hires smoothly",
           ],
+          detailedContent: [
+            "Steps to analyze job roles effectively",
+            "Best practices for writing job descriptions",
+            "Finding candidates through multiple channels",
+            "Evaluating candidates with structured interviews",
+            "Building onboarding programs for retention",
+          ],
+          toolsAndTechnologies: [
+            { name: "LinkedIn Recruiter", icon: "https://img.icons8.com/color/500/linkedin.png", alt: "LinkedIn Recruiter" },
+            { name: "Indeed Hiring Platform", icon: "https://img.icons8.com/color/500/indeed.png", alt: "Indeed Hiring Platform" },
+            { name: "Naukri RMS", icon: "https://img.icons8.com/color/500/naukri.png", alt: "Naukri RMS" },
+            { name: "Zoho Recruit", icon: "https://img.icons8.com/color/500/zoho.png", alt: "Zoho Recruit" },
+          ],
+          actions: {
+            startLearning: "https://example.com/start-learning-recruitment-selection",
+            downloadCurriculum: "https://example.com/download-curriculum-recruitment-selection",
+          },
+        },
+        {
+          title: "Employee Relations & Communication",
+          duration: "1 Month",
+          content: [
+            "Building employee engagement strategies",
+            "Conducting effective satisfaction surveys",
+            "Resolving workplace conflicts",
+            "Facilitating feedback sessions",
+            "Designing internal communication channels",
+          ],
+          detailedContent: [
+            "Importance of engagement in productivity",
+            "Survey creation and analysis",
+            "Conflict resolution models for HR",
+            "Using feedback to improve performance",
+            "Communication tools for team alignment",
+          ],
+          toolsAndTechnologies: [
+            { name: "Culture Amp", icon: "https://img.icons8.com/color/500/cultureamp.png", alt: "Culture Amp" },
+            { name: "SurveyMonkey", icon: "https://img.icons8.com/color/500/surveymonkey.png", alt: "SurveyMonkey" },
+            { name: "Office 365", icon: "https://img.icons8.com/color/500/office-365.png", alt: "Office 365" },
+            { name: "Slack", icon: "https://img.icons8.com/color/500/slack-new.png", alt: "Slack" },
+          ],
+          actions: {
+            startLearning: "https://example.com/start-learning-employee-relations",
+            downloadCurriculum: "https://example.com/download-curriculum-employee-relations",
+          },
+        },
+        {
+          title: "HR Ethics & Compliance",
+          duration: "1 Month",
+          content: [
+            "Understanding core employment laws",
+            "Monitoring compliance within HR processes",
+            "Designing policies to ensure compliance",
+            "Managing compliance audits effectively",
+            "Educating employees on legal requirements",
+          ],
+          detailedContent: [
+            "Key labor laws and their applications",
+            "Compliance frameworks for HR",
+            "Policy creation to meet legal standards",
+            "Steps in conducting compliance audits",
+            "Training staff on compliance awareness",
+          ],
+          toolsAndTechnologies: [
+            { name: "India Code Portal", icon: "https://img.icons8.com/color/500/law.png", alt: "India Code Portal" },
+            { name: "Tally ERP", icon: "https://img.icons8.com/color/500/tally.png", alt: "Tally ERP" },
+            { name: "Microsoft Excel", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "Microsoft Excel" },
+            { name: "Zoho People", icon: "https://res.cloudinary.com/dudu879kr/image/upload/v1755000268/zohopeople_r6psyf.webp", alt: "Zoho People" },
+          ],
+          actions: {
+            startLearning: "https://example.com/start-learning-hr-compliance",
+            downloadCurriculum: "https://example.com/download-curriculum-hr-compliance",
+          },
+        },
+        {
+          title: "Performance Management Systems",
+          duration: "1.5 Months",
+          content: [
+            "Creating structured appraisal methods",
+            "Defining measurable KPIs and OKRs",
+            "Conducting effective performance reviews",
+            "Implementing improvement plans",
+            "Integrating career development with performance",
+          ],
+          detailedContent: [
+            "Steps for building appraisal frameworks",
+            "Setting and tracking performance metrics",
+            "Techniques for unbiased performance reviews",
+            "How to design PIPs for underperformance",
+            "Career growth plans linked to performance data",
+          ],
+          toolsAndTechnologies: [
+            { name: "Keka HR", icon: "https://img.icons8.com/color/500/keka.png", alt: "Keka HR" },
+            { name: "BambooHR", icon: "https://res.cloudinary.com/dudu879kr/image/upload/v1754997923/bamboo_HR_yb7hqs.webp", alt: "BambooHR" },
+            { name: "Zoho People", icon: "https://res.cloudinary.com/dudu879kr/image/upload/v1755000268/zohopeople_r6psyf.webp", alt: "Zoho People" },
+            { name: "Microsoft Excel", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "Microsoft Excel" },
+          ],
+          actions: {
+            startLearning: "https://example.com/start-learning-performance-management",
+            downloadCurriculum: "https://example.com/download-curriculum-performance-management",
+          },
         },
       ],
     },
+  ],
+},
+
 
     // Data for Certificate Component
     certificate: {
@@ -15453,107 +15623,182 @@ export const coursesData = {
     },
 
     // Data for Modules Component (course-specific curriculum)
-    modulesData: {
-      title: "CORE HR CURRICULUM",
-      tabs: [
+  modulesData : {
+  title: "CORE HR CURRICULUM",
+  globalActions: {
+    startLearning: "https://connectingdotserp.com/enquiry",
+    downloadCurriculum: "/Curriculum/core-hr.pdf",
+  },
+  banner: {
+    title: "Master Core HR Skills",
+    subtitle: "From fundamentals to advanced HR operations — all in one course.",
+    image: "https://res.cloudinary.com/dudu879kr/image/upload/v1752485069/ITBanner_vkag1x.webp",
+    technologies: [
+      "HR Fundamentals",
+      "Recruitment & Selection",
+      "Payroll Management",
+      "Employee Relations",
+      "HR Operations & Analytics",
+    ],
+  },
+  tabs: [
+    {
+      modules: [
         {
-          type: "beginner",
-          duration: "2 Months",
-          modules: [
-            {
-              title: "HR Fundamentals & Policies",
-              duration: "2 Weeks",
-              content: [
-                "Introduction to Human Resources and organizational structure",
-                "HR roles and responsibilities in modern organizations",
-                "Understanding employment law basics and compliance",
-                "HR policy development and implementation",
-                "Employee handbook creation and management",
-                "Workplace ethics and professional standards",
-              ],
-            },
-            {
-              title: "Recruitment & Selection Process",
-              duration: "3 Weeks",
-              content: [
-                "Job analysis and job description writing",
-                "Recruitment strategies and sourcing techniques",
-                "Interview planning and conducting effective interviews",
-                "Selection methods and assessment techniques",
-                "Background verification and reference checking",
-                "Offer negotiation and onboarding preparation",
-              ],
-            },
-            {
-              title: "Payroll Management & Processing",
-              duration: "3 Weeks",
-              content: [
-                "Payroll fundamentals and statutory compliance",
-                "Salary structure design and components",
-                "Tax calculations and deductions",
-                "Payroll software and processing systems",
-                "Leave management and attendance tracking",
-                "Payroll reporting and documentation",
-              ],
-            },
+          title: "HR Fundamentals & Policies",
+          duration: "2 Weeks",
+          content: [
+            "Introduction to Human Resources and organizational structure",
+            "HR roles and responsibilities",
+            "Employment law basics",
+            "HR policy development",
+            "Employee handbook management",
+            "Workplace ethics",
           ],
+          detailedContent: [
+            "Understanding the structure and role of HR in modern organizations.",
+            "Exploring the core responsibilities of HR professionals.",
+            "Introduction to labor laws and compliance essentials.",
+            "Steps to create and implement effective HR policies.",
+            "Guidelines for maintaining an employee handbook.",
+            "Promoting workplace ethics and professional standards.",
+          ],
+          toolsAndTechnologies: [
+            { name: "MS Word", icon: "https://img.icons8.com/color/500/microsoft-word-2019--v1.png", alt: "MS Word" },
+            { name: "Google Docs", icon: "https://img.icons8.com/color/500/google-docs.png", alt: "Google Docs" },
+            { name: "HRMS", icon: "https://img.icons8.com/color/500/group.png", alt: "HRMS" },
+            { name: "Compliance Tools", icon: "https://img.icons8.com/color/500/checklist.png", alt: "Compliance Tools" },
+          ],
+          actions: {
+            startLearning: "https://connectingdotserp.com/enquiry",
+            downloadCurriculum: "/Curriculum/core-hr.pdf",
+          },
         },
         {
-          type: "advanced",
-          duration: "4 Months",
-          modules: [
-            {
-              title: "Employee Relations & Engagement",
-              duration: "1 Month",
-              content: [
-                "Employee engagement strategies and measurement",
-                "Conflict resolution and mediation techniques",
-                "Grievance handling and disciplinary procedures",
-                "Employee communication and feedback systems",
-                "Workplace culture development",
-                "Employee retention strategies",
-              ],
-            },
-            {
-              title: "Labor Law & Compliance",
-              duration: "1 Month",
-              content: [
-                "Employment laws and regulations overview",
-                "Contract management and employment agreements",
-                "Workplace safety and health compliance",
-                "Anti-discrimination and harassment policies",
-                "Labor relations and union management",
-                "Legal documentation and record keeping",
-              ],
-            },
-            {
-              title: "Performance Management & Development",
-              duration: "1 Month",
-              content: [
-                "Performance appraisal systems and methods",
-                "Goal setting and performance planning",
-                "Performance improvement plans and coaching",
-                "Career development and succession planning",
-                "Training needs assessment and planning",
-                "Employee development programs",
-              ],
-            },
-            {
-              title: "HR Operations & Analytics",
-              duration: "1 Month",
-              content: [
-                "HR information systems (HRIS) and technology",
-                "HR metrics and key performance indicators",
-                "Data analysis and reporting for HR decisions",
-                "Workforce planning and forecasting",
-                "HR project management and implementation",
-                "Continuous improvement in HR processes",
-              ],
-            },
+          title: "Recruitment & Selection Process",
+          duration: "3 Weeks",
+          content: [
+            "Job analysis and description writing",
+            "Recruitment strategies",
+            "Interview planning",
+            "Selection and assessment",
+            "Background checks",
+            "Onboarding preparation",
           ],
+          detailedContent: [
+            "Steps to perform job analysis and craft clear job descriptions.",
+            "Modern recruitment strategies and sourcing techniques.",
+            "Planning and conducting structured interviews.",
+            "Assessment methods for effective candidate selection.",
+            "Background verification and reference checks.",
+            "Creating a smooth onboarding experience.",
+          ],
+          toolsAndTechnologies: [
+            { name: "LinkedIn Recruiter", icon: "https://img.icons8.com/color/500/linkedin.png", alt: "LinkedIn Recruiter" },
+            { name: "Google Sheets", icon: "https://img.icons8.com/color/500/google-sheets.png", alt: "Google Sheets" },
+            { name: "ATS Software", icon: "https://img.icons8.com/color/500/task.png", alt: "ATS Software" },
+            { name: "Zoom/Meet", icon: "https://img.icons8.com/color/500/video-call.png", alt: "Zoom/Meet" },
+          ],
+          actions: {
+            startLearning: "https://connectingdotserp.com/enquiry",
+            downloadCurriculum: "/Curriculum/core-hr.pdf",
+          },
+        },
+        {
+          title: "Payroll Management & Processing",
+          duration: "3 Weeks",
+          content: [
+            "Payroll fundamentals",
+            "Salary structure design",
+            "Tax calculations",
+            "Payroll software usage",
+            "Leave and attendance tracking",
+            "Payroll reporting",
+          ],
+          detailedContent: [
+            "Key concepts of payroll and statutory compliance.",
+            "Designing salary structures and components.",
+            "Calculating taxes, deductions, and contributions.",
+            "Using payroll management software efficiently.",
+            "Tracking employee leaves and attendance.",
+            "Generating payroll reports and documentation.",
+          ],
+          toolsAndTechnologies: [
+            { name: "Excel", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "Excel" },
+            { name: "Tally Payroll", icon: "https://img.icons8.com/color/500/tally.png", alt: "Tally Payroll" },
+            { name: "Zoho Payroll", icon: "https://img.icons8.com/color/500/zoho.png", alt: "Zoho Payroll" },
+            { name: "HRMS Attendance", icon: "https://img.icons8.com/color/500/group.png", alt: "HRMS Attendance" },
+          ],
+          actions: {
+            startLearning: "https://connectingdotserp.com/enquiry",
+            downloadCurriculum: "/Curriculum/core-hr.pdf",
+          },
+        },
+        {
+          title: "Employee Relations & Engagement",
+          duration: "1 Month",
+          content: [
+            "Engagement strategies",
+            "Conflict resolution",
+            "Grievance handling",
+            "Employee communication",
+            "Workplace culture",
+            "Retention strategies",
+          ],
+          detailedContent: [
+            "Methods to enhance employee engagement and satisfaction.",
+            "Conflict resolution approaches and mediation techniques.",
+            "Processes for grievance handling and discipline.",
+            "Improving communication between HR and employees.",
+            "Building a positive workplace culture.",
+            "Strategies to retain top talent.",
+          ],
+          toolsAndTechnologies: [
+            { name: "SurveyMonkey", icon: "https://img.icons8.com/color/500/survey.png", alt: "SurveyMonkey" },
+            { name: "Slack", icon: "https://img.icons8.com/color/500/slack.png", alt: "Slack" },
+            { name: "Google Forms", icon: "https://img.icons8.com/color/500/google-forms-new-logo.png", alt: "Google Forms" },
+            { name: "Engagement Tools", icon: "https://img.icons8.com/color/500/handshake.png", alt: "Engagement Tools" },
+          ],
+          actions: {
+            startLearning: "https://connectingdotserp.com/enquiry",
+            downloadCurriculum: "/Curriculum/core-hr.pdf",
+          },
+        },
+        {
+          title: "HR Operations & Analytics",
+          duration: "1 Month",
+          content: [
+            "HRIS and technology",
+            "HR metrics and KPIs",
+            "Data analysis in HR",
+            "Workforce planning",
+            "Project management",
+            "Continuous improvement",
+          ],
+          detailedContent: [
+            "Using HR information systems for operational efficiency.",
+            "Tracking and analyzing HR metrics for decision-making.",
+            "Data analysis methods to improve HR functions.",
+            "Forecasting workforce needs and planning resources.",
+            "Managing HR projects from initiation to completion.",
+            "Ongoing process improvements in HR operations.",
+          ],
+          toolsAndTechnologies: [
+            { name: "Power BI", icon: "https://img.icons8.com/color/500/power-bi.png", alt: "Power BI" },
+            { name: "Tableau", icon: "https://img.icons8.com/color/500/tableau-software.png", alt: "Tableau" },
+            { name: "BambooHR", icon: "https://res.cloudinary.com/dudu879kr/image/upload/v1754997923/bamboo_HR_yb7hqs.webp", alt: "BambooHR" },
+            { name: "MS Project", icon: "https://img.icons8.com/color/500/project.png", alt: "MS Project" },
+          ],
+          actions: {
+            startLearning: "https://connectingdotserp.com/enquiry",
+            downloadCurriculum: "/Curriculum/core-hr.pdf",
+          },
         },
       ],
     },
+  ],
+},
+
 
     // Data for Certificate Component
     certificate: {
@@ -15753,107 +15998,173 @@ export const coursesData = {
     },
 
     // Data for Modules Component (course-specific curriculum)
-    modulesData: {
-      title: "HR GENERALIST CURRICULUM",
-      tabs: [
+ modulesData : {
+  title: "HR Generalist Curriculum",
+  globalActions: {
+    startLearning: "https://example.com/start-learning-hr-generalist",
+    downloadCurriculum: "https://example.com/download-curriculum-hr-generalist",
+  },
+  banner: {
+    title: "Become an HR Generalist Expert",
+    subtitle: "Master recruitment, employee engagement, payroll, compliance, and performance management.",
+    image: "https://res.cloudinary.com/dudu879kr/image/upload/v1752485069/ITBanner_vkag1x.webp",
+    technologies: [
+      "HR Fundamentals",
+      "Recruitment",
+      "Employee Engagement",
+      "Payroll Management",
+      "Performance Management",
+      "Labor Law",
+      "HR Analytics",
+    ],
+  },
+  tabs: [
+    {
+      modules: [
         {
-          type: "beginner",
-          duration: "2 Months",
-          modules: [
-            {
-              title: "HR Fundamentals & Organization",
-              duration: "2 Weeks",
-              content: [
-                "Introduction to Human Resources and organizational structure",
-                "HR roles and responsibilities in modern organizations",
-                "Understanding employment law basics and compliance requirements",
-                "HR ethics and professional standards",
-                "Organizational behavior and workplace culture",
-                "HR metrics and performance indicators",
-              ],
-            },
-            {
-              title: "Recruitment & Talent Acquisition",
-              duration: "3 Weeks",
-              content: [
-                "Job analysis and competency-based job descriptions",
-                "Recruitment strategies and multi-channel sourcing",
-                "Interview techniques and behavioral assessment",
-                "Selection methods and candidate evaluation",
-                "Background verification and reference checking",
-                "Offer negotiation and candidate experience management",
-              ],
-            },
-            {
-              title: "Employee Relations & Engagement",
-              duration: "3 Weeks",
-              content: [
-                "Employee engagement strategies and measurement tools",
-                "Conflict resolution and mediation techniques",
-                "Grievance handling and disciplinary procedures",
-                "Employee communication and feedback systems",
-                "Workplace culture development and team building",
-                "Employee retention strategies and exit interviews",
-              ],
-            },
+          title: "HR Fundamentals & Organization",
+          duration: "2 Weeks",
+          content: [
+            "Introduction to HR and organizational structure",
+            "Roles and responsibilities in HR",
+            "Basics of employment law and compliance",
+            "HR ethics and workplace professionalism",
+            "Understanding organizational behavior",
           ],
+          detailedContent: [
+            "History and evolution of HR functions",
+            "Core HR responsibilities and impact on business",
+            "Compliance essentials for HR processes",
+            "Professional ethics in HR decision making",
+            "Influence of culture on organizational performance",
+          ],
+          toolsAndTechnologies: [
+            { name: "BambooHR", icon: "https://res.cloudinary.com/dudu879kr/image/upload/v1754997923/bamboo_HR_yb7hqs.webp", alt: "BambooHR" },
+            { name: "Zoho People", icon: "https://res.cloudinary.com/dudu879kr/image/upload/v1755000268/zohopeople_r6psyf.webp", alt: "Zoho People" },
+            { name: "Microsoft Excel", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "Microsoft Excel" },
+            { name: "SAP SuccessFactors", icon: "https://img.icons8.com/color/500/sap.png", alt: "SAP SuccessFactors" },
+          ],
+          actions: {
+            startLearning: "https://example.com/start-learning-hr-fundamentals-organization",
+            downloadCurriculum: "https://example.com/download-curriculum-hr-fundamentals-organization",
+          },
         },
         {
-          type: "advanced",
-          duration: "4 Months",
-          modules: [
-            {
-              title: "Performance Management & Development",
-              duration: "1 Month",
-              content: [
-                "Performance appraisal systems and methodologies",
-                "Goal setting and performance planning frameworks",
-                "Performance improvement plans and coaching techniques",
-                "Career development and succession planning",
-                "Training needs assessment and learning programs",
-                "360-degree feedback and continuous performance management",
-              ],
-            },
-            {
-              title: "Payroll & Compensation Management",
-              duration: "1 Month",
-              content: [
-                "Payroll processing and statutory compliance",
-                "Salary structure design and job evaluation",
-                "Benefits administration and total rewards",
-                "Tax calculations and statutory deductions",
-                "Payroll software and HRIS systems",
-                "Compensation benchmarking and market analysis",
-              ],
-            },
-            {
-              title: "Labor Law & Compliance",
-              duration: "1 Month",
-              content: [
-                "Employment laws and regulatory compliance",
-                "Contract management and employment agreements",
-                "Workplace safety and health regulations",
-                "Anti-discrimination and harassment policies",
-                "Labor relations and union management",
-                "Legal documentation and audit preparation",
-              ],
-            },
-            {
-              title: "HR Analytics & Strategic Planning",
-              duration: "1 Month",
-              content: [
-                "HR information systems and technology tools",
-                "HR metrics, KPIs, and dashboard creation",
-                "Workforce planning and forecasting",
-                "Data analysis for HR decision making",
-                "Strategic HR planning and business alignment",
-                "Change management and organizational development",
-              ],
-            },
+          title: "Recruitment & Talent Acquisition",
+          duration: "3 Weeks",
+          content: [
+            "Job analysis and competency mapping",
+            "Multi-channel sourcing strategies",
+            "Interview planning and execution",
+            "Candidate assessment and selection",
+            "Offer negotiation and onboarding",
           ],
+          detailedContent: [
+            "Creating effective job descriptions",
+            "Optimizing recruitment channels",
+            "Behavioral and situational interviewing",
+            "Evaluation methods for candidate fit",
+            "Smooth onboarding for retention",
+          ],
+          toolsAndTechnologies: [
+            { name: "LinkedIn Recruiter", icon: "https://img.icons8.com/color/500/linkedin.png", alt: "LinkedIn Recruiter" },
+            { name: "Indeed", icon: "https://img.icons8.com/color/500/indeed.png", alt: "Indeed" },
+            { name: "Naukri RMS", icon: "https://img.icons8.com/color/500/naukri.png", alt: "Naukri RMS" },
+            { name: "Zoho Recruit", icon: "https://img.icons8.com/color/500/zoho.png", alt: "Zoho Recruit" },
+          ],
+          actions: {
+            startLearning: "https://example.com/start-learning-recruitment-talent-acquisition",
+            downloadCurriculum: "https://example.com/download-curriculum-recruitment-talent-acquisition",
+          },
+        },
+        {
+          title: "Employee Relations & Engagement",
+          duration: "3 Weeks",
+          content: [
+            "Employee engagement strategies",
+            "Conflict resolution techniques",
+            "Grievance and disciplinary handling",
+            "Team building and workplace culture",
+            "Employee retention initiatives",
+          ],
+          detailedContent: [
+            "Methods to measure engagement",
+            "Practical conflict resolution approaches",
+            "Establishing grievance redressal systems",
+            "Building high-performance workplace cultures",
+            "Retention programs and exit interviews",
+          ],
+          toolsAndTechnologies: [
+            { name: "Officevibe", icon: "https://img.icons8.com/color/500/feedback.png", alt: "Officevibe" },
+            { name: "SurveyMonkey", icon: "https://img.icons8.com/color/500/survey.png", alt: "SurveyMonkey" },
+            { name: "Slack", icon: "https://img.icons8.com/color/500/slack.png", alt: "Slack" },
+            { name: "Zoho People", icon: "https://res.cloudinary.com/dudu879kr/image/upload/v1755000268/zohopeople_r6psyf.webp", alt: "Zoho People" },
+          ],
+          actions: {
+            startLearning: "https://example.com/start-learning-employee-relations-engagement",
+            downloadCurriculum: "https://example.com/download-curriculum-employee-relations-engagement",
+          },
+        },
+        {
+          title: "Payroll & Compensation Management",
+          duration: "1 Month",
+          content: [
+            "Payroll processing and compliance",
+            "Salary structure and job evaluation",
+            "Benefits administration",
+            "Tax calculation and deductions",
+            "Compensation benchmarking",
+          ],
+          detailedContent: [
+            "End-to-end payroll process management",
+            "Designing competitive salary structures",
+            "Administering benefits and perks",
+            "Statutory deductions and compliance",
+            "Analyzing market compensation trends",
+          ],
+          toolsAndTechnologies: [
+            { name: "GreytHR", icon: "https://img.icons8.com/color/500/payroll.png", alt: "GreytHR" },
+            { name: "Keka HR", icon: "https://img.icons8.com/color/500/keka.png", alt: "Keka HR" },
+            { name: "Tally ERP", icon: "https://img.icons8.com/color/500/tally.png", alt: "Tally ERP" },
+            { name: "Microsoft Excel", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "Microsoft Excel" },
+          ],
+          actions: {
+            startLearning: "https://example.com/start-learning-payroll-compensation-management",
+            downloadCurriculum: "https://example.com/download-curriculum-payroll-compensation-management",
+          },
+        },
+        {
+          title: "Performance Management & Development",
+          duration: "1 Month",
+          content: [
+            "Performance appraisals",
+            "Goal setting and tracking",
+            "Performance improvement plans",
+            "Career development",
+            "Training needs assessment",
+          ],
+          detailedContent: [
+            "Designing appraisal systems",
+            "Setting SMART goals and KPIs",
+            "Coaching for performance improvement",
+            "Succession planning methods",
+            "Identifying learning needs for growth",
+          ],
+          toolsAndTechnologies: [
+            { name: "Keka HR", icon: "https://img.icons8.com/color/500/keka.png", alt: "Keka HR" },
+            { name: "BambooHR", icon: "https://res.cloudinary.com/dudu879kr/image/upload/v1754997923/bamboo_HR_yb7hqs.webp", alt: "BambooHR" },
+            { name: "Zoho People", icon: "https://res.cloudinary.com/dudu879kr/image/upload/v1755000268/zohopeople_r6psyf.webp", alt: "Zoho People" },
+            { name: "Microsoft Excel", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "Microsoft Excel" },
+          ],
+          actions: {
+            startLearning: "https://example.com/start-learning-performance-management-development",
+            downloadCurriculum: "https://example.com/download-curriculum-performance-management-development",
+          },
         },
       ],
     },
+  ],
+},
 
     // Data for Certificate Component
     certificate: {
@@ -16054,107 +16365,172 @@ export const coursesData = {
     },
 
     // Data for Modules Component (course-specific curriculum)
-    modulesData: {
-      title: "HR ANALYTICS CURRICULUM",
-      tabs: [
+ modulesData : {
+  title: "HR ANALYTICS CURRICULUM",
+  globalActions: {
+    startLearning: "https://connectingdotserp.com/enquiry",
+    downloadCurriculum: "/Curriculum/hr-analytics.pdf",
+  },
+  banner: {
+    title: "Master HR Analytics Skills",
+    subtitle: "From data collection to predictive modeling — all in one course.",
+    image: "https://res.cloudinary.com/dudu879kr/image/upload/v1752485069/ITBanner_vkag1x.webp",
+    technologies: [
+      "HR Analytics Fundamentals",
+      "Data Collection & Management",
+      "HR Metrics & KPIs",
+      "Workforce Planning",
+      "Predictive HR Analytics",
+    ],
+  },
+  tabs: [
+    {
+      modules: [
         {
-          type: "beginner",
-          duration: "3 Months",
-          modules: [
-            {
-              title: "HR Analytics Fundamentals",
-              duration: "1 Month",
-              content: [
-                "Introduction to HR Analytics and its business impact",
-                "Understanding HR data types and sources",
-                "Key HR metrics and KPIs for analysis",
-                "Data collection methods and best practices",
-                "Statistical concepts for HR professionals",
-                "Introduction to HR analytics tools and software",
-              ],
-            },
-            {
-              title: "Data Analysis Tools & Techniques",
-              duration: "1 Month",
-              content: [
-                "Excel for HR data analysis and visualization",
-                "Introduction to SQL for HR databases",
-                "Statistical analysis using R or Python basics",
-                "Data cleaning and preparation techniques",
-                "Creating charts and graphs for HR insights",
-                "Basic predictive modeling concepts",
-              ],
-            },
-            {
-              title: "HR Metrics & Reporting",
-              duration: "1 Month",
-              content: [
-                "Employee turnover analysis and prediction",
-                "Recruitment metrics and efficiency analysis",
-                "Performance management analytics",
-                "Employee engagement measurement",
-                "Compensation and benefits analysis",
-                "Creating HR dashboards and reports",
-              ],
-            },
+          title: "Introduction to HR Analytics",
+          duration: "2 Weeks",
+          content: [
+            "Overview of HR Analytics concepts",
+            "Role of analytics in strategic HR decisions",
+            "Applications in recruitment, retention, and performance",
+            "Importance of data-driven decision making",
+            "HR analytics career opportunities",
           ],
+          detailedContent: [
+            "Foundational understanding of HR Analytics and its purpose",
+            "How analytics improves decision-making in HR",
+            "Case studies of HR analytics in action",
+            "Core concepts and terminology",
+            "Trends shaping the future of HR analytics",
+          ],
+          toolsAndTechnologies: [
+            { name: "Excel", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "Excel" },
+            { name: "Power BI", icon: "https://img.icons8.com/color/500/power-bi.png", alt: "Power BI" },
+            { name: "Tableau", icon: "https://img.icons8.com/color/500/tableau-software.png", alt: "Tableau" },
+            { name: "Google Data Studio", icon: "https://img.icons8.com/color/500/google-data-studio.png", alt: "Google Data Studio" },
+          ],
+          actions: {
+            startLearning: "https://connectingdotserp.com/enquiry",
+            downloadCurriculum: "/Curriculum/hr-analytics.pdf",
+          },
         },
         {
-          type: "advanced",
-          duration: "5 Months",
-          modules: [
-            {
-              title: "Advanced Workforce Analytics",
-              duration: "1.5 Months",
-              content: [
-                "Advanced statistical methods for HR data",
-                "Predictive modeling for employee retention",
-                "Talent acquisition analytics and optimization",
-                "Workforce planning and forecasting models",
-                "Employee lifecycle analytics",
-                "Advanced data visualization techniques",
-              ],
-            },
-            {
-              title: "People Analytics Tools Mastery",
-              duration: "1.5 Months",
-              content: [
-                "Advanced Excel and Power BI for HR analytics",
-                "Tableau for HR dashboard development",
-                "Python/R for advanced HR data science",
-                "HRIS data extraction and analysis",
-                "Machine learning applications in HR",
-                "Automated reporting and alert systems",
-              ],
-            },
-            {
-              title: "Strategic HR Analytics",
-              duration: "1 Month",
-              content: [
-                "Business impact measurement of HR initiatives",
-                "ROI analysis for HR programs and investments",
-                "Diversity and inclusion analytics",
-                "Employee experience and journey mapping",
-                "Organizational network analysis",
-                "Change management through data insights",
-              ],
-            },
-            {
-              title: "Industry Projects & Case Studies",
-              duration: "1 Month",
-              content: [
-                "Real-world HR analytics projects",
-                "Industry-specific case study analysis",
-                "Building comprehensive HR analytics solutions",
-                "Presenting insights to stakeholders",
-                "Creating actionable recommendations from data",
-                "Portfolio development and career preparation",
-              ],
-            },
+          title: "Data Collection & Management",
+          duration: "3 Weeks",
+          content: [
+            "Collecting HR data from multiple sources",
+            "Cleaning and validating data",
+            "Data integration from HRMS and surveys",
+            "Ensuring data accuracy and consistency",
+            "Building a central HR data repository",
           ],
+          detailedContent: [
+            "Data collection techniques from HRMS, surveys, and performance tools",
+            "Data cleaning and preprocessing methods",
+            "Handling missing or inconsistent data",
+            "Data storage and management strategies",
+            "Best practices for ensuring reliable HR analytics",
+          ],
+          toolsAndTechnologies: [
+            { name: "MS Excel", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "MS Excel" },
+            { name: "SQL", icon: "https://img.icons8.com/color/500/sql.png", alt: "SQL" },
+            { name: "HRMS Software", icon: "https://img.icons8.com/color/500/group.png", alt: "HRMS Software" },
+            { name: "Python", icon: "https://img.icons8.com/color/500/python.png", alt: "Python" },
+          ],
+          actions: {
+            startLearning: "https://connectingdotserp.com/enquiry",
+            downloadCurriculum: "/Curriculum/hr-analytics.pdf",
+          },
+        },
+        {
+          title: "HR Metrics & KPIs",
+          duration: "2 Weeks",
+          content: [
+            "Defining key HR metrics",
+            "Tracking employee turnover and retention",
+            "Measuring training ROI",
+            "Analyzing recruitment efficiency",
+            "Aligning KPIs with organizational goals",
+          ],
+          detailedContent: [
+            "Understanding turnover rate, employee satisfaction, cost per hire, and training ROI",
+            "Choosing the right KPIs for HR goals",
+            "Creating dashboards for HR metrics",
+            "Interpreting HR data for better decisions",
+            "Using metrics to forecast HR needs",
+          ],
+          toolsAndTechnologies: [
+            { name: "Excel Dashboards", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "Excel Dashboards" },
+            { name: "Google Sheets", icon: "https://img.icons8.com/color/500/google-sheets.png", alt: "Google Sheets" },
+            { name: "Tableau", icon: "https://img.icons8.com/color/500/tableau-software.png", alt: "Tableau" },
+            { name: "Power BI", icon: "https://img.icons8.com/color/500/power-bi.png", alt: "Power BI" },
+          ],
+          actions: {
+            startLearning: "https://connectingdotserp.com/enquiry",
+            downloadCurriculum: "/Curriculum/hr-analytics.pdf",
+          },
+        },
+        {
+          title: "Workforce Planning & Optimization",
+          duration: "3 Weeks",
+          content: [
+            "Forecasting staffing needs",
+            "Identifying skill gaps",
+            "Optimizing headcount",
+            "Enhancing talent acquisition strategies",
+            "Reducing workforce risks",
+          ],
+          detailedContent: [
+            "How to forecast staffing needs using analytics",
+            "Strategies for identifying and filling skill gaps",
+            "Data-driven headcount optimization",
+            "Improving hiring efficiency through analytics",
+            "Mitigating HR-related risks with proactive planning",
+          ],
+          toolsAndTechnologies: [
+            { name: "MS Excel", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "MS Excel" },
+            { name: "SPSS", icon: "https://img.icons8.com/color/500/spss.png", alt: "SPSS" },
+            { name: "Python", icon: "https://img.icons8.com/color/500/python.png", alt: "Python" },
+            { name: "Workforce Planning Tools", icon: "https://img.icons8.com/color/500/group.png", alt: "Workforce Planning Tools" },
+          ],
+          actions: {
+            startLearning: "https://connectingdotserp.com/enquiry",
+            downloadCurriculum: "/Curriculum/hr-analytics.pdf",
+          },
+        },
+        {
+          title: "Predictive HR Analytics",
+          duration: "1 Month",
+          content: [
+            "Introduction to predictive modeling",
+            "Forecasting employee turnover",
+            "Predicting hiring needs",
+            "Using machine learning in HR",
+            "Improving decision-making with predictions",
+          ],
+          detailedContent: [
+            "Overview of predictive analytics in HR",
+            "Techniques for predicting turnover, hiring needs, and performance trends",
+            "How machine learning enhances HR decisions",
+            "Statistical models for HR analytics",
+            "Case studies of predictive HR analytics applications",
+          ],
+          toolsAndTechnologies: [
+            { name: "Python", icon: "https://img.icons8.com/color/500/python.png", alt: "Python" },
+            { name: "R", icon: "https://img.icons8.com/color/500/r-project.png", alt: "R" },
+            { name: "SPSS", icon: "https://img.icons8.com/color/500/spss.png", alt: "SPSS" },
+            { name: "Power BI", icon: "https://img.icons8.com/color/500/power-bi.png", alt: "Power BI" },
+          ],
+          actions: {
+            startLearning: "https://connectingdotserp.com/enquiry",
+            downloadCurriculum: "/Curriculum/hr-analytics.pdf",
+          },
         },
       ],
     },
+  ],
+},
+
 
     // Data for Certificate Component
     certificate: {
@@ -16353,107 +16729,172 @@ export const coursesData = {
     },
 
     // Data for Modules Component (course-specific curriculum)
-    modulesData: {
-      title: "HR MANAGEMENT CURRICULUM",
-      tabs: [
+   modulesData : {
+  title: "HR MANAGEMENT CURRICULUM",
+  globalActions: {
+    startLearning: "https://connectingdotserp.com/enquiry",
+    downloadCurriculum: "/Curriculum/hr-management.pdf",
+  },
+  banner: {
+    title: "Become an Expert in HR Management",
+    subtitle: "From fundamentals to advanced strategy — all in one course.",
+    image: "https://res.cloudinary.com/dudu879kr/image/upload/v1752485069/ITBanner_vkag1x.webp",
+    technologies: [
+      "HR Fundamentals",
+      "Talent Management",
+      "Performance Management",
+      "Strategic HR Leadership",
+      "HR Analytics & Compliance",
+    ],
+  },
+  tabs: [
+    {
+      modules: [
         {
-          type: "beginner",
-          duration: "3 Months",
-          modules: [
-            {
-              title: "HR Fundamentals & Strategic Planning",
-              duration: "1 Month",
-              content: [
-                "Introduction to Human Resource Management and its strategic role",
-                "HR planning and workforce forecasting techniques",
-                "Organizational structure and HR's role in business strategy",
-                "HR metrics and key performance indicators",
-                "Understanding employment law and compliance requirements",
-                "HR ethics and professional standards in management",
-              ],
-            },
-            {
-              title: "Talent Management & Development",
-              duration: "1 Month",
-              content: [
-                "Talent acquisition strategies and recruitment planning",
-                "Employee onboarding and orientation programs",
-                "Training and development program design",
-                "Career development and succession planning",
-                "Leadership development and mentoring programs",
-                "Employee engagement and retention strategies",
-              ],
-            },
-            {
-              title: "Performance & Employee Relations",
-              duration: "1 Month",
-              content: [
-                "Performance management systems and appraisal methods",
-                "Goal setting and performance improvement planning",
-                "Employee relations and conflict resolution",
-                "Disciplinary procedures and grievance handling",
-                "Team building and organizational culture development",
-                "Communication strategies and feedback systems",
-              ],
-            },
+          title: "HR Fundamentals & Strategic Planning",
+          duration: "1 Month",
+          content: [
+            "Introduction to HRM and its strategic role",
+            "HR planning and workforce forecasting",
+            "Organizational structure and HR alignment",
+            "Key HR metrics and KPIs",
+            "Employment law basics and compliance",
           ],
+          detailedContent: [
+            "Understanding HR's contribution to organizational goals",
+            "Methods for workforce planning and forecasting",
+            "Designing organizational structures for efficiency",
+            "Identifying and tracking core HR KPIs",
+            "Ensuring HR compliance with legal requirements",
+          ],
+          toolsAndTechnologies: [
+            { name: "MS Excel", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "MS Excel" },
+            { name: "Google Sheets", icon: "https://img.icons8.com/color/500/google-sheets.png", alt: "Google Sheets" },
+            { name: "HRMS Software", icon: "https://img.icons8.com/color/500/group.png", alt: "HRMS" },
+            { name: "Power BI", icon: "https://img.icons8.com/color/500/power-bi.png", alt: "Power BI" },
+          ],
+          actions: {
+            startLearning: "https://connectingdotserp.com/enquiry",
+            downloadCurriculum: "/Curriculum/hr-management.pdf",
+          },
         },
         {
-          type: "advanced",
-          duration: "6 Months",
-          modules: [
-            {
-              title: "Strategic HR Leadership",
-              duration: "1.5 Months",
-              content: [
-                "Strategic HR planning and business alignment",
-                "Change management and organizational transformation",
-                "Leadership styles and management effectiveness",
-                "Decision-making and problem-solving in HR",
-                "Building high-performance teams and culture",
-                "Executive coaching and leadership development",
-              ],
-            },
-            {
-              title: "Compensation & Benefits Management",
-              duration: "1.5 Months",
-              content: [
-                "Compensation strategy and salary structure design",
-                "Job evaluation and market benchmarking",
-                "Benefits administration and total rewards programs",
-                "Incentive and bonus program development",
-                "Equity and fairness in compensation practices",
-                "Cost management and budget planning for HR",
-              ],
-            },
-            {
-              title: "HR Analytics & Technology",
-              duration: "1.5 Months",
-              content: [
-                "HR information systems and technology implementation",
-                "Data analytics for HR decision making",
-                "Workforce analytics and predictive modeling",
-                "HR dashboard creation and reporting",
-                "Digital transformation in HR processes",
-                "Automation and AI applications in HR",
-              ],
-            },
-            {
-              title: "Advanced HR Strategy & Compliance",
-              duration: "1.5 Months",
-              content: [
-                "Advanced employment law and regulatory compliance",
-                "Risk management and HR audit processes",
-                "Diversity, equity, and inclusion strategies",
-                "Global HR management and cross-cultural considerations",
-                "Mergers, acquisitions, and organizational restructuring",
-                "Strategic HR consulting and advisory skills",
-              ],
-            },
+          title: "Talent Management & Development",
+          duration: "1 Month",
+          content: [
+            "Talent acquisition and recruitment planning",
+            "Employee onboarding processes",
+            "Training and development design",
+            "Career and succession planning",
+            "Employee engagement strategies",
           ],
+          detailedContent: [
+            "Sourcing and selecting the right talent",
+            "Designing smooth onboarding experiences",
+            "Developing training programs for skill growth",
+            "Building succession pipelines for key roles",
+            "Improving retention through engagement initiatives",
+          ],
+          toolsAndTechnologies: [
+            { name: "LinkedIn Recruiter", icon: "https://img.icons8.com/color/500/linkedin.png", alt: "LinkedIn Recruiter" },
+            { name: "MS Excel", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "MS Excel" },
+            { name: "LMS Platforms", icon: "https://img.icons8.com/color/500/training.png", alt: "LMS Platforms" },
+            { name: "Google Forms", icon: "https://img.icons8.com/color/500/google-forms-new-logo-1.png", alt: "Google Forms" },
+          ],
+          actions: {
+            startLearning: "https://connectingdotserp.com/enquiry",
+            downloadCurriculum: "/Curriculum/hr-management.pdf",
+          },
+        },
+        {
+          title: "Performance & Employee Relations",
+          duration: "1 Month",
+          content: [
+            "Performance appraisal systems",
+            "Goal setting and performance planning",
+            "Conflict resolution in workplace",
+            "Grievance handling procedures",
+            "Team building and culture development",
+          ],
+          detailedContent: [
+            "Creating fair and measurable performance systems",
+            "Using SMART goals for performance planning",
+            "Mediation techniques for resolving disputes",
+            "Steps for handling grievances effectively",
+            "Developing a strong and positive work culture",
+          ],
+          toolsAndTechnologies: [
+            { name: "MS Excel", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "MS Excel" },
+            { name: "Slack", icon: "https://img.icons8.com/color/500/slack-new.png", alt: "Slack" },
+            { name: "HRMS", icon: "https://img.icons8.com/color/500/group.png", alt: "HRMS" },
+            { name: "Google Workspace", icon: "https://img.icons8.com/color/500/google-logo.png", alt: "Google Workspace" },
+          ],
+          actions: {
+            startLearning: "https://connectingdotserp.com/enquiry",
+            downloadCurriculum: "/Curriculum/hr-management.pdf",
+          },
+        },
+        {
+          title: "Strategic HR Leadership",
+          duration: "1.5 Months",
+          content: [
+            "Strategic HR alignment with business goals",
+            "Change management strategies",
+            "Leadership styles in HR",
+            "Problem-solving in HR operations",
+            "Building high-performance cultures",
+          ],
+          detailedContent: [
+            "Aligning HR strategy with company objectives",
+            "Managing change with minimal disruption",
+            "Adapting leadership styles for different teams",
+            "Decision-making frameworks for HR challenges",
+            "Fostering productivity through culture building",
+          ],
+          toolsAndTechnologies: [
+            { name: "MS Excel", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "MS Excel" },
+            { name: "Trello", icon: "https://img.icons8.com/color/500/trello.png", alt: "Trello" },
+            { name: "Power BI", icon: "https://img.icons8.com/color/500/power-bi.png", alt: "Power BI" },
+            { name: "Google Slides", icon: "https://img.icons8.com/color/500/google-slides.png", alt: "Google Slides" },
+          ],
+          actions: {
+            startLearning: "https://connectingdotserp.com/enquiry",
+            downloadCurriculum: "/Curriculum/hr-management.pdf",
+          },
+        },
+        {
+          title: "HR Analytics & Compliance",
+          duration: "1.5 Months",
+          content: [
+            "Advanced employment law compliance",
+            "Risk management in HR",
+            "Diversity and inclusion strategies",
+            "Global HR management",
+            "Mergers and restructuring in HR",
+          ],
+          detailedContent: [
+            "Keeping HR practices compliant with regulations",
+            "Identifying and mitigating HR risks",
+            "Implementing DEI programs effectively",
+            "Managing HR across multiple countries",
+            "Handling HR in mergers and acquisitions",
+          ],
+          toolsAndTechnologies: [
+            { name: "Power BI", icon: "https://img.icons8.com/color/500/power-bi.png", alt: "Power BI" },
+            { name: "MS Excel", icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png", alt: "MS Excel" },
+            { name: "HRMS", icon: "https://img.icons8.com/color/500/group.png", alt: "HRMS" },
+            { name: "Tableau", icon: "https://img.icons8.com/color/500/tableau-software.png", alt: "Tableau" },
+          ],
+          actions: {
+            startLearning: "https://connectingdotserp.com/enquiry",
+            downloadCurriculum: "/Curriculum/hr-management.pdf",
+          },
         },
       ],
     },
+  ],
+},
+
 
     // Data for Certificate Component
     certificate: {
@@ -16654,107 +17095,275 @@ export const coursesData = {
     },
 
     // Data for Modules Component (course-specific curriculum)
-    modulesData: {
-      title: "HR PAYROLL CURRICULUM",
-      tabs: [
+   modulesData : {
+  title: "HR PAYROLL CURRICULUM",
+  globalActions: {
+    startLearning: "https://example.com/start-learning-hr-payroll",
+    downloadCurriculum:
+      "https://example.com/download-curriculum-hr-payroll",
+  },
+  banner: {
+    title: "Looking for HR Courses?",
+    subtitle: "No need to Google 10 tabs — everything's listed right here.",
+    image:
+      "https://res.cloudinary.com/dudu879kr/image/upload/v1752485069/ITBanner_vkag1x.webp",
+    technologies: [
+      "Payroll",
+      "Tax Compliance",
+      "Benefits",
+      "HRIS",
+      "SAP",
+      "Oracle",
+      "QuickBooks",
+    ],
+  },
+  tabs: [
+    {
+      modules: [
         {
-          type: "beginner",
-          duration: "3 Months",
-          modules: [
+          title: "Payroll Fundamentals & Processing",
+          duration: "1 Month",
+          content: [
+            "Introduction to payroll management and its importance in HR",
+            "Understanding payroll cycles and processing timelines",
+            "Employee data collection and verification procedures",
+            "Basic salary calculations and wage structures",
+            "Time and attendance tracking systems",
+            "Payroll documentation and record keeping requirements",
+          ],
+          detailedContent: [
+            "Overview of payroll management concepts",
+            "Detailed payroll cycle steps and process mapping",
+            "HR data management best practices",
+            "Salary breakup structures with examples",
+            "Integration of time tracking with payroll",
+            "Legal requirements for payroll documentation",
+          ],
+          toolsAndTechnologies: [
             {
-              title: "Payroll Fundamentals & Processing",
-              duration: "1 Month",
-              content: [
-                "Introduction to payroll management and its importance in HR",
-                "Understanding payroll cycles and processing timelines",
-                "Employee data collection and verification procedures",
-                "Basic salary calculations and wage structures",
-                "Time and attendance tracking systems",
-                "Payroll documentation and record keeping requirements",
-              ],
+              name: "SAP SuccessFactors Payroll",
+              icon: "https://img.icons8.com/color/500/sap.png",
+              alt: "SAP SuccessFactors Payroll",
             },
             {
-              title: "Tax Compliance & Statutory Deductions",
-              duration: "1 Month",
-              content: [
-                "Income tax calculations and TDS procedures",
-                "Provident Fund (PF) and Employee State Insurance (ESI) compliance",
-                "Professional tax and other statutory deductions",
-                "Form 16 generation and tax filing procedures",
-                "Annual tax planning and investment declarations",
-                "Compliance with labor laws and tax regulations",
-              ],
+              name: "Oracle PeopleSoft HCM",
+              icon: "https://img.icons8.com/color/500/oracle-logo.png",
+              alt: "Oracle PeopleSoft HCM",
             },
             {
-              title: "Benefits Administration & Reporting",
-              duration: "1 Month",
-              content: [
-                "Employee benefits management and administration",
-                "Leave management and leave encashment calculations",
-                "Bonus and incentive calculations",
-                "Reimbursement processing and expense management",
-                "Payroll reporting and MIS generation",
-                "Basic payroll software operations and data entry",
-              ],
+              name: "ADP Workforce Now",
+              icon: "https://img.icons8.com/color/500/adp.png",
+              alt: "ADP Workforce Now",
+            },
+            {
+              name: "QuickBooks Payroll",
+              icon: "https://img.icons8.com/color/500/quickbooks.png",
+              alt: "QuickBooks Payroll",
             },
           ],
+          actions: {
+            startLearning:
+              "https://example.com/start-learning-payroll-fundamentals",
+            downloadCurriculum:
+              "https://example.com/download-curriculum-payroll-fundamentals",
+          },
         },
         {
-          type: "advanced",
-          duration: "5 Months",
-          modules: [
+          title: "Tax Compliance & Statutory Deductions",
+          duration: "1 Month",
+          content: [
+            "Income tax calculations and TDS procedures",
+            "Provident Fund (PF) and Employee State Insurance (ESI) compliance",
+            "Professional tax and other statutory deductions",
+            "Form 16 generation and tax filing procedures",
+            "Annual tax planning and investment declarations",
+            "Compliance with labor laws and tax regulations",
+          ],
+          detailedContent: [
+            "Step-by-step TDS deduction process",
+            "PF & ESI registration and filing",
+            "Professional tax compliance for different states",
+            "Form 16 generation workflow",
+            "Year-end tax reconciliation",
+            "Audit readiness for payroll taxes",
+          ],
+          toolsAndTechnologies: [
             {
-              title: "Advanced Payroll Systems & Software",
-              duration: "1.5 Months",
-              content: [
-                "Advanced HRIS and payroll software management",
-                "Payroll system configuration and customization",
-                "Integration of payroll with other HR modules",
-                "Automated payroll processing and workflow management",
-                "Data migration and system implementation",
-                "Troubleshooting and system maintenance procedures",
-              ],
+              name: "ClearTax",
+              icon: "https://img.icons8.com/color/500/tax.png",
+              alt: "ClearTax",
             },
             {
-              title: "Compensation Design & Structure",
-              duration: "1.5 Months",
-              content: [
-                "Salary structure design and job evaluation methods",
-                "Variable pay and performance-based compensation",
-                "Executive compensation and stock option plans",
-                "Cost-to-company (CTC) calculations and breakdowns",
-                "Compensation benchmarking and market analysis",
-                "Total rewards strategy and implementation",
-              ],
+              name: "Tally ERP",
+              icon: "https://img.icons8.com/color/500/tally.png",
+              alt: "Tally ERP",
             },
             {
-              title: "Payroll Compliance & Risk Management",
-              duration: "1 Month",
-              content: [
-                "Advanced labor law compliance and regulatory updates",
-                "Payroll audit procedures and internal controls",
-                "Risk assessment and mitigation strategies",
-                "Handling payroll disputes and grievances",
-                "Data security and confidentiality in payroll",
-                "Multi-location and multi-state payroll compliance",
-              ],
+              name: "Excel",
+              icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png",
+              alt: "Excel",
             },
             {
-              title: "Analytics & Strategic Payroll Management",
-              duration: "1 Month",
-              content: [
-                "Payroll analytics and cost analysis",
-                "Budgeting and forecasting for payroll expenses",
-                "ROI analysis for payroll investments",
-                "Strategic payroll planning and optimization",
-                "Vendor management for payroll outsourcing",
-                "Change management in payroll processes",
-              ],
+              name: "QuickBooks Payroll",
+              icon: "https://img.icons8.com/color/500/quickbooks.png",
+              alt: "QuickBooks Payroll",
             },
           ],
+          actions: {
+            startLearning:
+              "https://example.com/start-learning-tax-compliance",
+            downloadCurriculum:
+              "https://example.com/download-curriculum-tax-compliance",
+          },
+        },
+        {
+          title: "Benefits Administration & Reporting",
+          duration: "1 Month",
+          content: [
+            "Employee benefits management and administration",
+            "Leave management and leave encashment calculations",
+            "Bonus and incentive calculations",
+            "Reimbursement processing and expense management",
+            "Payroll reporting and MIS generation",
+            "Basic payroll software operations and data entry",
+          ],
+          detailedContent: [
+            "Defining benefits policies",
+            "Leave balance tracking",
+            "Annual bonus computation",
+            "Expense reimbursement workflow",
+            "Generating payroll MIS reports",
+            "Hands-on payroll software usage",
+          ],
+          toolsAndTechnologies: [
+            {
+              name: "Zoho People",
+              icon: "https://res.cloudinary.com/dudu879kr/image/upload/v1755000268/zohopeople_r6psyf.webp",
+              alt: "Zoho People",
+            },
+            {
+              name: "BambooHR",
+              icon: "https://res.cloudinary.com/dudu879kr/image/upload/v1754997923/bamboo_HR_yb7hqs.webp",
+              alt: "BambooHR",
+            },
+            {
+              name: "Excel",
+              icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png",
+              alt: "Excel",
+            },
+            {
+              name: "QuickBooks Payroll",
+              icon: "https://img.icons8.com/color/500/quickbooks.png",
+              alt: "QuickBooks Payroll",
+            },
+          ],
+          actions: {
+            startLearning:
+              "https://example.com/start-learning-benefits-admin",
+            downloadCurriculum:
+              "https://example.com/download-curriculum-benefits-admin",
+          },
+        },
+        {
+          title: "Compliance with Labor Laws",
+          duration: "1 Month",
+          content: [
+            "Understanding key labor laws affecting payroll",
+            "Minimum Wages Act and compliance",
+            "Payment of Wages Act procedures",
+            "Gratuity calculation and compliance",
+            "Maternity and paternity benefits",
+            "ESI and PF related inspections",
+          ],
+          detailedContent: [
+            "Overview of labor law requirements",
+            "Handling compliance audits",
+            "Gratuity eligibility & payout process",
+            "Mandatory benefits under law",
+            "Dealing with inspectors and notices",
+            "Maintaining compliance records",
+          ],
+          toolsAndTechnologies: [
+            {
+              name: "India Code Portal",
+              icon: "https://img.icons8.com/color/500/law.png",
+              alt: "India Code Portal",
+            },
+            {
+              name: "Excel",
+              icon: "https://img.icons8.com/color/500/microsoft-excel-2019--v1.png",
+              alt: "Excel",
+            },
+            {
+              name: "Tally ERP",
+              icon: "https://img.icons8.com/color/500/tally.png",
+              alt: "Tally ERP",
+            },
+            {
+              name: "QuickBooks Payroll",
+              icon: "https://img.icons8.com/color/500/quickbooks.png",
+              alt: "QuickBooks Payroll",
+            },
+          ],
+          actions: {
+            startLearning:
+              "https://example.com/start-learning-labor-laws",
+            downloadCurriculum:
+              "https://example.com/download-curriculum-labor-laws",
+          },
+        },
+        {
+          title: "Advanced Payroll Systems & Software",
+          duration: "1.5 Months",
+          content: [
+            "Advanced HRIS and payroll software management",
+            "Payroll system configuration and customization",
+            "Integration of payroll with other HR modules",
+            "Automated payroll processing and workflow management",
+            "Data migration and system implementation",
+            "Troubleshooting and system maintenance procedures",
+          ],
+          detailedContent: [
+            "Advanced payroll software features",
+            "Customization for organizational needs",
+            "System integration best practices",
+            "Automation scripts for payroll processing",
+            "Migrating data securely",
+            "Preventive maintenance for payroll systems",
+          ],
+          toolsAndTechnologies: [
+            {
+              name: "SAP SuccessFactors Payroll",
+              icon: "https://img.icons8.com/color/500/sap.png",
+              alt: "SAP SuccessFactors Payroll",
+            },
+            {
+              name: "Oracle PeopleSoft HCM",
+              icon: "https://img.icons8.com/color/500/oracle-logo.png",
+              alt: "Oracle PeopleSoft HCM",
+            },
+            {
+              name: "ADP Workforce Now",
+              icon: "https://img.icons8.com/color/500/adp.png",
+              alt: "ADP Workforce Now",
+            },
+            {
+              name: "QuickBooks Payroll",
+              icon: "https://img.icons8.com/color/500/quickbooks.png",
+              alt: "QuickBooks Payroll",
+            },
+          ],
+          actions: {
+            startLearning:
+              "https://example.com/start-learning-advanced-payroll",
+            downloadCurriculum:
+              "https://example.com/download-curriculum-advanced-payroll",
+          },
         },
       ],
     },
+  ],
+},
 
     // Data for Certificate Component
     certificate: {

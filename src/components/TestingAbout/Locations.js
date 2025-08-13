@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import { MapPin, Building2, Phone, Mail, Navigation } from "lucide-react";
+import BackgroundAnimation from "@/components/Common/BackgroundAnimation";
 
 // Company locations data
 const companyLocations = [
@@ -539,20 +540,25 @@ const OurBranch = () => {
   };
 
   return (
-    <div className="min-h-screen bg-black relative overflow-hidden">
+    <div className="min-h-screen relative overflow-hidden">
+      <BackgroundAnimation />
       {/* Background Elements */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 z-10">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-gray-800/20 rounded-full blur-3xl animate-pulse" />
         <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-gray-700/20 rounded-full blur-3xl animate-pulse delay-1000" />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gray-600/10 rounded-full blur-3xl" />
       </div>
 
-      <div className="relative z-10 container mx-auto px-4 py-6 sm:py-8 lg:py-12">
+      <div className="relative z-20 container mx-auto px-4 py-6 sm:py-8 lg:py-12">
         {/* Header */}
         <div className="text-center mb-6 sm:mb-8 lg:mb-12">
-          <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-4 bg-gradient-to-r from-gray-300 to-gray-100 bg-clip-text text-transparent">
-            Our Branches
-          </h1>
+        <div className="text-center">
+  <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-4 text-white">
+    Our Branches
+  </h1>
+  <span className="block w-40 h-1 mx-auto bg-gradient-to-r from-gray-400 via-gray-200 to-gray-400 rounded-full opacity-70"></span>
+</div>
+
           <p className="text-base sm:text-lg lg:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
             <span className="hidden lg:inline">
               Explore our office locations across India. Hover over the cards to

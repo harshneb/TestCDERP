@@ -38,6 +38,7 @@
     "jsdom": "^26.1.0",
     "lexical": "^0.24.0",
     "lucide-react": "^0.477.0",
+    "mongoose": "^8.17.1",
     "motion": "^12.4.10",
     "next": "15.1.6",
     "puppeteer": "^24.10.2",

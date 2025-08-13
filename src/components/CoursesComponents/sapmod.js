@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Btnform from "@/components/HomePage/Btnform";
+import BackgroundAnimation from "@/components/Common/BackgroundAnimation";
 
 // SapModComponent receives data prop directly from parent
 const SapModComponent = ({ data }) => {
@@ -160,20 +161,33 @@ const SapModComponent = ({ data }) => {
   }
 
   return (
-    <div className="w-full bg-[#2d2d2d] mb-4 sm:mb-4 lg:mb-4">
-      <div className="bg-[#2d2d2d] flex flex-col items-center py-8 sm:py-12 px-4 sm:px-6 lg:px-8 min-h-[600px]">
+    <div className="w-full mb-4 sm:mb-4 lg:mb-4 relative">
+      <BackgroundAnimation />
+      <div className="flex flex-col items-center py-8 sm:py-12 px-4 sm:px-6 lg:px-8 min-h-[600px] relative z-10">
         {/* Header */}
         <div className="w-full max-w-6xl mb-6 sm:mb-8">
-          <h1
-            className="text-2xl sm:text-3xl md:text-4xl font-semibold text-white text-center"
+        <h1
+  className="text-4xl font-extrabold tracking-wider mb-3 text-white text-center"
+  style={{
+    textShadow: '0 0 16px #fff, 0 0 32px #80d8ff',
+    fontFamily: 'Montserrat, Quicksand, Arial, sans-serif',
+    letterSpacing: '0.12em',
+    lineHeight: 1.1
+  }}
+>
+  SYLLABUS
+</h1>
+<div 
             style={{
-              fontFamily: "Inter, Segoe UI, Roboto, Arial, sans-serif",
-              letterSpacing: "-0.5px",
+              width: '80px',
+              height: '4px',
+              background: 'linear-gradient(90deg, #a76b2e, #f18436)',
+              margin: '5px auto 10px',
+              borderRadius: '2px',
+              marginBottom: '1rem'
             }}
-          >
-            SYLLABUS
-          </h1>
-        </div>
+          />
+             </div>
 
         <div className="flex flex-col md:flex-row gap-6 sm:gap-8 w-full max-w-6xl items-start">
           {/* Left Card */}
@@ -291,7 +305,7 @@ const SapModComponent = ({ data }) => {
 
               {/* Note master */}
               {data.noteMaster && (
-                <p className="text-red-300 text-center text-sm mt-2">
+                <p className="text-white text-center text-sm mt-2">
                   {data.noteMaster}
                 </p>
               )}

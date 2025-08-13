@@ -9,7 +9,7 @@ const staticHtml = getStaticHtml('blog');
 
 export const metadata = {
   title: 'Connecting Dots ERP Blog | SAP, IT & HR Insights',
-  description: 'Explore the latest articles, insights, and news from Connecting Dots ERP on SAP, IT training, HR trends, and career development.',
+  description: 'Explore the latest blogs, insights, and news from Connecting Dots ERP on SAP, IT training, HR trends, and career development.',
   alternates: {
     canonical: '/blogs',
   },
