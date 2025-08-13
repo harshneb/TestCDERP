@@ -225,18 +225,18 @@ const AchievementsSection = () => {
             </div>
 
             {/* Heading and Subtitle */}
-            <div className="mb-4 sm:mb-6 lg:mb-8 mt-6 sm:mt-8 lg:mt-12 mx-0 sm:mx-8 lg:mx-48">
-            <div className="relative inline-block">
-  <h2 className="text-center text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-900 mb-2 sm:mb-4">
-  Our Achievements
-  </h2>
-  <span className="absolute left-1/2 -translate-x-1/2 bottom-0 w-40 h-1 bg-gradient-to-r from-black via-gray-800 to-black rounded-full opacity-90"></span>
-</div>
+            <div className="mb-4 sm:mb-6 lg:mb-8 mt-6 sm:mt-8 lg:mt-12 -translate-x-16">
+  <div className="w-full flex flex-col items-center">
+    <h2 className="text-center text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-900 mb-2 sm:mb-4">
+      Our Achievements
+    </h2>
+    <span className="w-40 h-1 bg-gradient-to-r from-black via-gray-800 to-black rounded-full opacity-90"></span>
+  </div>
 
-              <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl text-left">
-                Discover our journey through milestones and success stories
-              </p>
-            </div>
+  <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto text-center">
+    Discover our journey through milestones and success stories
+  </p>
+</div>
 
             {/* Bottom Carousel (left to right) */}
             <div className="mb-4 sm:mb-6 lg:mb-8 mt-6 sm:mt-8 lg:mt-12">
