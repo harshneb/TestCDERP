@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, ChevronUp, Smartphone, Brain, MessageCircle, Menu, X, BookOpen, GraduationCap, Filter, Search, ArrowRight } from 'lucide-react';
 import Card from '@/components/BlogsPage/ui/Card';
-import InterviewCards from '@/components/BlogsPage/interview';
+import InterviewCard from '@/components/interviewCard';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 
